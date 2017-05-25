@@ -1,0 +1,174 @@
+body{
+  background-color: #fafafa !important;
+}
+a:hover{
+  text-decoration:none !important;
+}
+
+/*
+ *
+ *      NAVBAR
+ *
+ */
+
+#header{
+  width: 100.5%;
+  background-color: #ffffff;
+  position: relative;
+  right: 8px;
+  bottom: 8px;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin: 0;
+  border-bottom-style: solid;
+  border-bottom-width:1px;
+}
+#navbarleft{
+  text-align: left;
+  display: inline;
+  padding: 5%;
+}
+#title{
+  font-size: 3vw;
+  margin: 3%;
+  position: relative;
+  top: .5vw;
+  color: #5a5a5a;
+}
+#navbarright{
+  display: inline;
+  position: relative;
+  left: 30%;
+  padding-left: 6%;
+}
+.navbarrightitem{
+  margin: 3%;
+  margin-left: 6%;
+  margin-right: 0;
+  position: relative;
+  bottom: .25vw;
+}
+a{
+  text-decoration: none;
+  color: #5a5a5a !important;
+}
+
+/*
+ *
+ *      FOOTER
+ *
+ */
+
+#footer{
+  background-color: #dddddd;
+  width: 100%;
+  margin-top:4%;
+}
+#affiliations, #socialmedia{
+  padding: 2%;
+}
+#affiliations{
+  padding-left: 5%;
+}
+.links{
+  position: relative;
+  left: 0;
+  color: #5a5a5a;
+  transition: left .5s, color .5s;
+}
+.links:hover{
+  left:5px;
+  color: #000000 !important;
+}
+#cittext:hover{
+
+}
+
+/*
+ *
+ *      INDEX.HTML CONTENT
+ *
+ */
+
+#aboutinfo{
+  padding: 10%;
+}
+#icons{
+  background-image: url("gcit3.png");
+  color: #ffffff;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10%;
+}
+
+/*
+ *
+ *      TITLES FOR ABOUT & ACTIVITIES PAGES
+ *
+ */
+
+#titles{
+  font-size:8vw;
+  text-align: center;
+  padding:2%;
+}
+
+/*
+ *
+ *      ABOUT.HTML CONTENT
+ *
+ */
+
+.col-xs-6{
+  padding: 6%;
+}
+#whatdo{
+  padding-top:4%;
+  padding-bottom:4%;
+}
+#purposetitle{
+  width:40%;
+  border-right-style:solid;
+  text-align: right;
+}
+#purposeinfo{
+  width:60%;
+}
+#whatdotitle{
+  width:40%;
+  border-left-style:solid;
+}
+#whatdoinfo{
+  width:60%;
+}
+#cittitle{
+  width:40%;
+  border-right-style:solid;
+  text-align: right;
+}
+#citinfo{
+  width:60%;
+}
+
+/*
+ *
+ *      ACTIVITIES.HTML CONTENT
+ *
+ */
+
+h2{
+  padding: 1%;
+}
+.box{
+  background-color:#dddddd;
+  height: 12vw !important;
+  width: 25vw !important;
+  margin: 1% !important;
+  padding-top: 5vw;
+  padding-left: 20vw;
+}
+.text{
+  position: relative;
+  opacity: 0;
+}
